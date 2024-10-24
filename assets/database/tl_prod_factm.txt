@@ -1,0 +1,19 @@
+-- pcagleg.tl_prod_factm definition
+
+-- Drop table
+
+-- DROP TABLE pcagleg.tl_prod_factm;
+
+CREATE TABLE pcagleg.tl_prod_factm (
+	fact_no varchar(4) NOT NULL,
+	prod_fact varchar(1) NOT NULL,
+	prod_fact_nm varchar(15) NULL,
+	stock_id varchar(1) NULL,
+	brand_no varchar(2) NULL,
+	sort_seq varchar(1) NULL,
+	fee_fact varchar(4) NULL,
+	stop_mk varchar(1) NULL DEFAULT 'N'::character varying,
+	lo_mk varchar(1) NULL DEFAULT 'Y'::character varying,
+	stand varchar(10) NULL,
+	CONSTRAINT tl_prod_factm_pk PRIMARY KEY (fact_no, prod_fact)
+);

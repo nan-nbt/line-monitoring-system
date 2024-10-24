@@ -1,0 +1,15 @@
+-- pcagleg.tl_defect_list definition
+
+-- Drop table
+
+-- DROP TABLE pcagleg.tl_defect_list;
+
+CREATE TABLE pcagleg.tl_defect_list (
+	fact_no varchar(4) NOT NULL,
+	line_type varchar(1) NOT NULL,
+	process_no varchar(3) NOT NULL,
+	defect_no varchar(11) NOT NULL,
+	defect_name varchar(80) NULL,
+	stop_mk varchar(1) NULL,
+	CONSTRAINT tl_defect_list_pk PRIMARY KEY (fact_no, line_type, process_no, defect_no)
+);

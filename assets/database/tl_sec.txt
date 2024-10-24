@@ -1,0 +1,20 @@
+-- pcagleg.tl_sec definition
+
+-- Drop table
+
+-- DROP TABLE pcagleg.tl_sec;
+
+CREATE TABLE pcagleg.tl_sec (
+	fact_no varchar(4) NOT NULL,
+	sec_no varchar(20) NOT NULL,
+	sec_name varchar(20) NULL,
+	dept_no varchar(1) NOT NULL,
+	web_seq varchar(4) NOT NULL,
+	build_no varchar(2) NULL,
+	sec_sname varchar(20) NULL,
+	stop_mk varchar(1) NULL,
+	fee_fact varchar(4) NULL,
+	arbpl varchar(8) NULL,
+	line_type varchar(1) NULL,
+	CONSTRAINT tl_sec_pk PRIMARY KEY (fact_no, sec_no)
+);

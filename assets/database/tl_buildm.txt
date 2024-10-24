@@ -1,0 +1,17 @@
+-- pcagleg.tl_buildm definition
+
+-- Drop table
+
+-- DROP TABLE pcagleg.tl_buildm;
+
+CREATE TABLE pcagleg.tl_buildm (
+	fact_no varchar(4) NOT NULL,
+	build_no varchar(2) NOT NULL,
+	build_eng_nm varchar(20) NULL,
+	build_cn_cm varchar(20) NULL,
+	prod_fact varchar(1) NULL,
+	build_nm varchar(10) NULL,
+	sort_seq varchar(3) NULL,
+	sap_storage varchar(10) NULL,
+	CONSTRAINT tl_buildm_pk PRIMARY KEY (fact_no, build_no)
+);

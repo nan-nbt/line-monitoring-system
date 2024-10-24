@@ -1,0 +1,15 @@
+-- pcagleg.tl_data_collection_d definition
+
+-- Drop table
+
+-- DROP TABLE pcagleg.tl_data_collection_d;
+
+CREATE TABLE pcagleg.tl_data_collection_d (
+	fact_no varchar(4) NOT NULL,
+	submit_id varchar(50) NOT NULL,
+	submit_seq varchar(3) NOT NULL,
+	defect_no varchar(11) NOT NULL,
+	defect_qty numeric(5) NULL,
+	defect_rate numeric(7, 2) NULL,
+	CONSTRAINT tl_data_collection_d_pk PRIMARY KEY (fact_no, submit_id, submit_seq, defect_no)
+);

@@ -1,0 +1,14 @@
+-- pcagleg.tl_mps_caclhist definition
+
+-- Drop table
+
+-- DROP TABLE pcagleg.tl_mps_caclhist;
+
+CREATE TABLE pcagleg.tl_mps_caclhist (
+	fact_no varchar(4) NOT NULL,
+	ymd varchar(8) NOT NULL,
+	po_no varchar(35) NOT NULL,
+	vbeln varchar(20) NOT NULL,
+	chg_code varchar(1) NULL,
+	CONSTRAINT tl_mps_caclhist_pk PRIMARY KEY (fact_no, ymd, po_no, vbeln)
+);

@@ -1,0 +1,17 @@
+-- pcagleg.tl_factory definition
+
+-- Drop table
+
+-- DROP TABLE pcagleg.tl_factory;
+
+CREATE TABLE pcagleg.tl_factory (
+	fact_no varchar(4) NOT NULL,
+	fact_name varchar(20) NULL,
+	master_no varchar(1) NULL,
+	fact_f_nm varchar(4) NULL,
+	odr_fact varchar(1) NULL,
+	alert_mail_addr varchar(50) NULL,
+	alert_mail_server varchar(50) NULL,
+	sap_fact_no varchar(4) NULL,
+	CONSTRAINT tl_factory_pk PRIMARY KEY (fact_no)
+);

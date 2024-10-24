@@ -1,0 +1,14 @@
+-- pcagleg.tl_process definition
+
+-- Drop table
+
+-- DROP TABLE pcagleg.tl_process;
+
+CREATE TABLE pcagleg.tl_process (
+	fact_no varchar(4) NOT NULL,
+	process_no varchar(3) NOT NULL,
+	process_name varchar(60) NULL,
+	line_type varchar(1) NOT NULL,
+	stop_mk varchar(1) NULL,
+	CONSTRAINT tl_process_pk PRIMARY KEY (fact_no, process_no, line_type)
+);

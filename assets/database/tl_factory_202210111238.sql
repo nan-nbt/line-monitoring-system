@@ -1,0 +1,2 @@
+INSERT INTO pcagleg.tl_factory (fact_no,fact_name,master_no,fact_f_nm,odr_fact,alert_mail_addr,alert_mail_server,sap_fact_no) VALUES
+	 ('0228','PCI adidas','M','PCI ','8','alert.asci@pci.co.id','mail.pci.co.id','5010');

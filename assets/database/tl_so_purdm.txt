@@ -1,0 +1,15 @@
+-- pcagleg.tl_so_purdm definition
+
+-- Drop table
+
+-- DROP TABLE pcagleg.tl_so_purdm;
+
+CREATE TABLE pcagleg.tl_so_purdm (
+	fact_no varchar(4) NOT NULL,
+	po_no varchar(35) NOT NULL,
+	vbeln varchar(20) NOT NULL,
+	cancel_date varchar(8) NULL,
+	ship_mk varchar(1) NULL,
+	sec_no varchar(4) NOT NULL,
+	CONSTRAINT tl_so_purdm_pk PRIMARY KEY (fact_no, po_no, sec_no)
+);

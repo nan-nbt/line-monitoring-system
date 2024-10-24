@@ -1,0 +1,25 @@
+-- pcagleg.tl_users definition
+
+-- Drop table
+
+-- DROP TABLE pcagleg.tl_users;
+
+CREATE TABLE pcagleg.tl_users (
+	fact_no varchar(4) NOT NULL,
+	user_no varchar(10) NOT NULL,
+	user_pswd varchar(10) NOT NULL,
+	user_nm varchar(30) NOT NULL,
+	user_mk varchar(1) NULL,
+	ip_no varchar(15) NULL,
+	depart varchar(20) NULL,
+	expired_date varchar(8) NULL,
+	create_date varchar(8) NULL,
+	l_login_time varchar(14) NULL,
+	stop_date varchar(8) NULL,
+	email varchar(50) NULL,
+	ware_no varchar(5) NULL,
+	sso_user varchar(30) NULL,
+	pnl_no varchar(10) NULL,
+	pcc_id varchar(50) NULL,
+	CONSTRAINT tl_users_pk PRIMARY KEY (fact_no, user_no)
+);

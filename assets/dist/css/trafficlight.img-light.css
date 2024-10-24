@@ -1,0 +1,433 @@
+/* Light for Layout Line Type 1 */
+.light1-1 {
+  position: absolute;
+  top: 295px;
+  left: 196px;
+  margin: 0 auto;
+}
+.light1-2 {
+  position: absolute;
+  top: 393px;
+  left: 113px;
+  margin: 0 auto;
+}
+.light1-3 {
+  position: absolute;
+  top: 270px;
+  left: 4px;
+  margin: 0 auto;
+}
+.light1-4 {
+  position: absolute;
+  top: 77px;
+  left: -60px;
+  margin: 0 auto;
+}
+.light1-5 {
+  position: absolute;
+  top: 150px;
+  left: 130px;
+  margin: 0 auto;
+}
+.light1-6 {
+  position: absolute;
+  top: 123px;
+  left: 268px;
+  margin: 0 auto;
+}
+.light1-7 {
+  position: absolute;
+  top: 295px;
+  left: 261px;
+  margin: 0 auto;
+}
+
+/* Light for Layout Line Type 2 */
+.light2-1 {
+  position: absolute;
+  top: 68px;
+  left: 954px;
+  margin: 0 auto;
+}
+.light2-2 {
+  position: absolute;
+  top: 292px;
+  left: 1155px;
+  margin: 0 auto;
+}
+.light2-3 {
+  position: absolute;
+  top: 167px;
+  left: 1127px;
+  margin: 0 auto;
+}
+.light2-4 {
+  position: absolute;
+  top: 168px;
+  left: 895px;
+  margin: 0 auto;
+}
+.light2-5 {
+  position: absolute;
+  top: 218px;
+  left: 642px;
+  margin: 0 auto;
+}
+.light2-6 {
+  position: absolute;
+  top: 141px;
+  left: 541px;
+  margin: 0 auto;
+}
+.light2-7 {
+  position: absolute;
+  top: 153px;
+  left: 178px;
+  margin: 0 auto;
+}
+.light2-8 {
+  position: absolute;
+  top: 218px;
+  left: -94px;
+  margin: 0 auto;
+}
+.light2-9 {
+  position: absolute;
+  top: 287px;
+  left: -16px;
+  margin: 0 auto;
+}
+
+/* moved your media query to the bottom of your styles,
+so it successfully overrides the styles set above */
+
+/* big landscape tablets, laptops, and desktops */
+@media screen and (max-width: 1280px) {
+  /* Light for Layout Line Type 2 */
+  .light2-1 {
+    position: absolute;
+    top: 42px;
+    left: 895px;
+    margin: 0 auto;
+  }
+  .light2-2 {
+    position: absolute;
+    top: 253px;
+    left: 1110px;
+    margin: 0 auto;
+  }
+  .light2-3 {
+    position: absolute;
+    top: 135px;
+    left: 1110px;
+    margin: 0 auto;
+  }
+  .light2-4 {
+    position: absolute;
+    top: 135px;
+    left: 915px;
+    margin: 0 auto;
+  }
+  .light2-5 {
+    position: absolute;
+    top: 185px;
+    left: 705px;
+    margin: 0 auto;
+  }
+  .light2-6 {
+    position: absolute;
+    top: 105px;
+    left: 630px;
+    margin: 0 auto;
+  }
+  .light2-7 {
+    position: absolute;
+    top: 115px;
+    left: 320px;
+    margin: 0 auto;
+  }
+  .light2-8 {
+    position: absolute;
+    top: 180px;
+    left: 80px;
+    margin: 0 auto;
+  }
+  .light2-9 {
+    position: absolute;
+    top: 250px;
+    left: 185px;
+    margin: 0 auto;
+  }
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media screen and (max-width: 1025px) {
+  /* Light for Layout Line Type 2 */
+  .light2-1 {
+    position: absolute;
+    top: 30px;
+    left: 703px;
+    margin: 0 auto;
+    transform: scale(1);
+  }
+  .light2-2 {
+    position: absolute;
+    top: 195px;
+    left: 875px;
+    margin: 0 auto;
+    transform: scale(1);
+  }
+  .light2-3 {
+    position: absolute;
+    top: 100px;
+    left: 875px;
+    margin: 0 auto;
+    transform: scale(1);
+  }
+  .light2-4 {
+    position: absolute;
+    top: 100px;
+    left: 725px;
+    margin: 0 auto;
+    transform: scale(1);
+  }
+  .light2-5 {
+    position: absolute;
+    top: 143px;
+    left: 550px;
+    margin: 0 auto;
+    transform: scale(1);
+  }
+  .light2-6 {
+    position: absolute;
+    top: 85px;
+    left: 498px;
+    margin: 0 auto;
+    transform: scale(1);
+  }
+  .light2-7 {
+    position: absolute;
+    top: 90px;
+    left: 250px;
+    margin: 0 auto;
+    transform: scale(1);
+  }
+  .light2-8 {
+    position: absolute;
+    top: 135px;
+    left: 60px;
+    margin: 0 auto;
+    transform: scale(1);
+  }
+  .light2-9 {
+    position: absolute;
+    top: 190px;
+    left: 140px;
+    margin: 0 auto;
+    transform: scale(1);
+  }
+}
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media screen and (max-width: 800px) {
+  /* Light for Layout Line Type 2 */
+  .light2-1 {
+    position: absolute;
+    top: 20px;
+    left: 515px;
+    margin: 0 auto;
+    transform: scale(0.8);
+  }
+  .light2-2 {
+    position: absolute;
+    top: 140px;
+    left: 640px;
+    margin: 0 auto;
+    transform: scale(0.8);
+  }
+  .light2-3 {
+    position: absolute;
+    top: 70px;
+    left: 640px;
+    margin: 0 auto;
+    transform: scale(0.8);
+  }
+  .light2-4 {
+    position: absolute;
+    top: 70px;
+    left: 530px;
+    margin: 0 auto;
+    transform: scale(0.8);
+  }
+  .light2-5 {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    margin: 0 auto;
+    transform: scale(0.8);
+  }
+  .light2-6 {
+    position: absolute;
+    top: 60px;
+    left: 363px;
+    margin: 0 auto;
+    transform: scale(0.8);
+  }
+  .light2-7 {
+    position: absolute;
+    top: 65px;
+    left: 183px;
+    margin: 0 auto;
+    transform: scale(0.8);
+  }
+  .light2-8 {
+    position: absolute;
+    top: 97px;
+    left: 45px;
+    margin: 0 auto;
+    transform: scale(0.8);
+  }
+  .light2-9 {
+    position: absolute;
+    top: 135px;
+    left: 100px;
+    margin: 0 auto;
+    transform: scale(0.8);
+  }
+}
+
+/* smartphones, Android phones, landscape iPhone */
+@media screen and (max-width: 600px) {
+  /* Light for Layout Line Type 2 */
+  .light2-1 {
+    position: absolute;
+    top: 13px;
+    left: 400px;
+    margin: 0 auto;
+    transform: scale(0.7);
+  }
+  .light2-2 {
+    position: absolute;
+    top: 106px;
+    left: 500px;
+    margin: 0 auto;
+    transform: scale(0.7);
+  }
+  .light2-3 {
+    position: absolute;
+    top: 52px;
+    left: 505px;
+    margin: 0 auto;
+    transform: scale(0.7);
+  }
+  .light2-4 {
+    position: absolute;
+    top: 52px;
+    left: 415px;
+    margin: 0 auto;
+    transform: scale(0.7);
+  }
+  .light2-5 {
+    position: absolute;
+    top: 75px;
+    left: 312px;
+    margin: 0 auto;
+    transform: scale(0.7);
+  }
+  .light2-6 {
+    position: absolute;
+    top: 45px;
+    left: 282px;
+    margin: 0 auto;
+    transform: scale(0.7);
+  }
+  .light2-7 {
+    position: absolute;
+    top: 47px;
+    left: 140px;
+    margin: 0 auto;
+    transform: scale(0.7);
+  }
+  .light2-8 {
+    position: absolute;
+    top: 75px;
+    left: 33px;
+    margin: 0 auto;
+    transform: scale(0.7);
+  }
+  .light2-9 {
+    position: absolute;
+    top: 102px;
+    left: 75px;
+    margin: 0 auto;
+    transform: scale(0.7);
+  }
+}
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media screen and (max-width: 480px) {
+  /* Light for Layout Line Type 2 */
+  .light2-1 {
+    position: absolute;
+    top: 5px;
+    left: 305px;
+    margin: 0 auto;
+    transform: scale(0.6);
+  }
+  .light2-2 {
+    position: absolute;
+    top: 80px;
+    left: 382px;
+    margin: 0 auto;
+    transform: scale(0.6);
+  }
+  .light2-3 {
+    position: absolute;
+    top: 35px;
+    left: 383px;
+    margin: 0 auto;
+    transform: scale(0.6);
+  }
+  .light2-4 {
+    position: absolute;
+    top: 35px;
+    left: 320px;
+    margin: 0 auto;
+    transform: scale(0.6);
+  }
+  .light2-5 {
+    position: absolute;
+    top: 55px;
+    left: 237px;
+    margin: 0 auto;
+    transform: scale(0.6);
+  }
+  .light2-6 {
+    position: absolute;
+    top: 33px;
+    left: 215px;
+    margin: 0 auto;
+    transform: scale(0.6);
+  }
+  .light2-7 {
+    position: absolute;
+    top: 35px;
+    left: 105px;
+    margin: 0 auto;
+    transform: scale(0.6);
+  }
+  .light2-8 {
+    position: absolute;
+    top: 55px;
+    left: 25px;
+    margin: 0 auto;
+    transform: scale(0.6);
+  }
+  .light2-9 {
+    position: absolute;
+    top: 76px;
+    left: 55px;
+    margin: 0 auto;
+    transform: scale(0.6);
+  }
+}
